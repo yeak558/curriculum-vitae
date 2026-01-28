@@ -50,8 +50,12 @@ nav > ul {
 
 /* Specific Declerations */
 nav > ul > li,
-nav > ul > li > a{
+nav > ul > li > a {
 	padding: 15px;
+}
+
+nav > ul > li > a {
+	border: 2px solid #0d6a89;
 }
 
 nav > ul > li > a:hover {
