@@ -1,0 +1,14 @@
+/* Init Declerations */
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+
+/* Layout Declerations */
+
+.main-container {
+	background-color: #fafafa;
+}
