@@ -29,6 +29,7 @@ ul {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	gap: 50px;
 }
 
 nav {
@@ -82,7 +83,7 @@ nav > ul > li > a:hover {
 	border-radius: 15px;
 }
 
-.hero-section > .text-container {
+.hero-text-container {
 	width: 600px;
 	height: 400px;
 	background-color: rgba(224, 223, 223, 0.837);
@@ -105,4 +106,18 @@ nav > ul > li > a:hover {
 
 .text {
 	text-align: center;
+}
+
+.quote-text-container {
+	width: 70%;
+	height: 400px;
+	background-color: rgba(224, 223, 223, 0.837);
+	border: 2px solid black;
+	border-radius: 10px;
+	font-size: 50px;
+	/* Layout Properties */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 50px;
 }
