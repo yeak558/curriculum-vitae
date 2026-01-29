@@ -71,14 +71,25 @@ h1 {
 /* Experimental */
 
 .pair-container {
+	border-left: 5px dotted white;
+	padding-left: 50px;
+	width: 600px;
+
 	display: flex;
 	justify-content: center;
 	gap: 50px;
 }
 
 .text-container {
+	width: 500px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	gap: 40px;
+}
+
+.empty-container {
+	border-left: 5px dotted white;
+	height: 50px;
+	width: 600px;
 }
