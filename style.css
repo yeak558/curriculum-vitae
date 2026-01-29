@@ -4,7 +4,7 @@
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
-	font-family: sans-serif;
+	font-family: "Verdana", sans-serif;
 }
 
 a {
@@ -19,105 +19,38 @@ ul {
 }
 
 /* Layout Declerations */
-
-.main-container {
-	/* Basic Properties */
-	background-color: #eaeaea;
-	width: 100%;
-	height: 1200px;
-	/* Layout Properties */
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	gap: 50px;
+body {
+	background-color: rgb(246, 221, 175);
 }
 
 nav {
-	width: 100%;
 	height: 100px;
-	background-color: #0d6a89;
+	background-color: #07536c;
+	border-bottom: 10px solid #064458;
+
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
-	/* nav bar specific declerations */
-	nav > ul {
-		width: 90%;
-		display: flex;
-		justify-content: space-around;
-		align-items: center;
-	}
 
-	nav > ul > li {
-		display: flex;
-		justify-content: center;
-	}
+ul {
+	width: 90%;
 
-.hero-section {
-	width: 70%;
-	height: 500px;
-	background-color: transparent;
-	padding: 100px;
-	/* Layout Properties */
 	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-wrap: wrap;
-	gap: 100px;
+	justify-content: space-around;
 }
 
+main {
+	margin-top: 50px;
+	
+	display: flex;
+	justify-content: center;
+}
 
 /* Specific Declerations */
-nav > ul > li,
-nav > ul > li > a {
-	padding: 15px;
-}
 
-nav > ul > li > a {
-	border: 2px solid #0d6a89;
-}
-
-nav > ul > li > a:hover {
-	background-color: #0d6380;
+.link {
+	padding: 20px;
 	border: 2px solid white;
 	border-radius: 15px;
-}
-
-.hero-text-container {
-	width: 600px;
-	height: 400px;
-	background-color: rgba(224, 223, 223, 0.837);
-	border: 2px solid black;
-	border-radius: 10px;
-	font-size: 50px;
-	/* Layout Properties */
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	gap: 50px;
-}
-
-.hero-section > img {
-	height: 400px;
-	width: auto;
-	border: 2px solid black;
-	border-radius: 10px;
-}
-
-.text {
-	text-align: center;
-}
-
-.quote-text-container {
-	width: 70%;
-	height: 400px;
-	background-color: rgba(224, 223, 223, 0.837);
-	border: 2px solid black;
-	border-radius: 10px;
-	font-size: 50px;
-	/* Layout Properties */
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	gap: 50px;
 }
