@@ -44,7 +44,8 @@ main {
 	margin-top: 50px;
 	
 	display: flex;
-	justify-content: center;
+	flex-flow: column wrap;
+	align-items: center;
 }
 
 /* Specific Declerations */
@@ -53,4 +54,31 @@ main {
 	padding: 20px;
 	border: 2px solid white;
 	border-radius: 15px;
+}
+
+.link:hover {
+	background-color: #064458;
+}
+
+header {
+	margin: 40px 0px;
+}
+
+h1 {
+	text-align: center;
+}
+
+/* Experimental */
+
+.pair-container {
+	display: flex;
+	justify-content: center;
+	gap: 50px;
+}
+
+.text-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 40px;
 }
