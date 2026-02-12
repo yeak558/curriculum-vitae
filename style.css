@@ -42,7 +42,8 @@ ul {
 
 main {
 	margin-top: 50px;
-	width: 400px;
+	margin-bottom: 50px;
+	width: 600px;
 	
 	display: flex;
 	flex-flow: column wrap;
@@ -82,7 +83,7 @@ h1 {
 }
 
 .text-container {
-	width: 500px;
+	width: 250px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
