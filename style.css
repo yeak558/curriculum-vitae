@@ -42,10 +42,12 @@ ul {
 
 main {
 	margin-top: 50px;
+	width: 400px;
 	
 	display: flex;
 	flex-flow: column wrap;
 	align-items: center;
+	gap: 40px;
 }
 
 /* Specific Declerations */
@@ -71,7 +73,6 @@ h1 {
 /* Experimental */
 
 .pair-container {
-	border-left: 5px dotted white;
 	padding-left: 50px;
 	width: 600px;
 
@@ -88,8 +89,12 @@ h1 {
 	gap: 40px;
 }
 
-.empty-container {
-	border-left: 5px dotted white;
-	height: 50px;
-	width: 600px;
+.line {
+	border-left: 4px dotted white;
+}
+
+.main-container {
+	display: flex;
+	justify-content: center;
+	gap: 10px;
 }
