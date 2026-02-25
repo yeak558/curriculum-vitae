@@ -44,6 +44,7 @@ div.main-container {
 }
 
 .text-container {
+	text-align: center;
 	width: 250px;
 	display: flex;
 	flex-direction: column;

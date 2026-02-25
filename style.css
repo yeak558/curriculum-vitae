@@ -27,3 +27,8 @@ h1 {
 	padding: 20px;
 	background-color: rgb(228, 203, 156);
 }
+
+hr {
+	width: 90%;
+	color: #064458;
+}
