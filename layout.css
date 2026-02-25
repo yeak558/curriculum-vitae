@@ -37,10 +37,8 @@ div.main-container {
 }
 
 .pair-container {
-	padding-left: 50px;
-	width: 600px;
-
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: center;
 	gap: 30px;
 }
