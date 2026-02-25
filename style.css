@@ -1,57 +1,6 @@
-/* Init Declerations */
-
-* {
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
-	font-family: "Verdana", sans-serif;
-}
-
-a {
-	text-decoration: none;
-	color: #fffafb;
-	font-weight: bold;
-}
-
-ul {
-	list-style: none;
-	padding: 0;
-}
-
-/* Layout Declerations */
 body {
 	background-color: rgb(246, 221, 175);
 }
-
-nav {
-	height: 100px;
-	background-color: #07536c;
-	border-bottom: 10px solid #064458;
-
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-ul {
-	width: 90%;
-
-	display: flex;
-	justify-content: space-around;
-}
-
-main {
-	margin-top: 50px;
-	margin-bottom: 50px;
-	width: 600px;
-	
-	display: flex;
-	flex-flow: column wrap;
-	align-items: center;
-	gap: 40px;
-}
-
-/* Specific Declerations */
 
 .link {
 	padding: 20px;
