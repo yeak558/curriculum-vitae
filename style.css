@@ -28,7 +28,7 @@ h1 {
 
 	display: flex;
 	justify-content: center;
-	gap: 50px;
+	gap: 30px;
 }
 
 .text-container {
@@ -37,10 +37,6 @@ h1 {
 	flex-direction: column;
 	justify-content: center;
 	gap: 40px;
-}
-
-.line {
-	border-left: 4px dotted white;
 }
 
 .main-container {
