@@ -1,7 +1,8 @@
 /* Layout declerations */
 nav.menu-top {
 	/* View */
-	height: 100px;
+	/* height: 100px; */
+	padding: 30px;
 	background-color: #07536c;
 	border-bottom: 10px solid #064458;
 	/* Layout */
@@ -15,7 +16,9 @@ ul.menu-top-links {
 	width: 90%;
 	/* Layout */
 	display: flex;
-	justify-content: space-around;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 20px;
 	flex: 1;
 }
 

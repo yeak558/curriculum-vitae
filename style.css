@@ -2,6 +2,10 @@ body {
 	background-color: rgb(246, 221, 175);
 }
 
+li {
+	padding: 20px;
+}
+
 .link {
 	padding: 20px;
 	border: 2px solid white;
