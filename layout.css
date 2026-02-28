@@ -1,20 +1,11 @@
 /* Layout declerations */
 nav.menu-top {
-	/* View */
-	/* height: 100px; */
-	padding: 30px;
-	background-color: #07536c;
-	border-bottom: 10px solid #064458;
-	/* Layout */
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 
 ul.menu-top-links {
-	/* View */
-	width: 90%;
-	/* Layout */
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
@@ -23,10 +14,6 @@ ul.menu-top-links {
 }
 
 main {
-	/* View */
-	width: 600px;
-	margin: 20px 0px;
-	/* Layout */
 	display: flex;
 	flex-flow: column wrap;
 	align-items: center;
@@ -47,8 +34,6 @@ div.main-container {
 }
 
 .text-container {
-	text-align: center;
-	width: 250px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;

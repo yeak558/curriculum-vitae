@@ -2,6 +2,13 @@ body {
 	background-color: rgb(246, 221, 175);
 }
 
+/* Menu */
+nav.menu-top {
+	padding: 30px;
+	background-color: #07536c;
+	border-bottom: 10px solid #064458;
+}
+
 li {
 	padding: 20px;
 }
@@ -16,12 +23,23 @@ li {
 	background-color: #064458;
 }
 
+/* Main content */
+main {
+	width: 600px;
+	margin: 20px 0px;
+}
+
 header {
 	margin: 20px 0px;
 }
 
 h1 {
 	text-align: center;
+}
+
+.text-container {
+	text-align: center;
+	width: 250px;
 }
 
 /* Experimental */
